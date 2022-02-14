@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/meama_final/static/css/main.46f10b5b.css",
+    "main.js": "/meama_final/static/js/main.8ccdd4c7.js",
+    "static/media/MeamaLGV-Medium.woff": "/meama_final/static/media/MeamaLGV-Medium.9cf4cc97e2bb18d35011.woff",
+    "static/media/MeamaSansLGV-Regular.woff": "/meama_final/static/media/MeamaSansLGV-Regular.85b5422b0bc8fb189556.woff",
+    "static/media/bg-meama.png": "/meama_final/static/media/bg-meama.d7f0bc4855e06ad4b372.png",
+    "index.html": "/meama_final/index.html",
+    "main.46f10b5b.css.map": "/meama_final/static/css/main.46f10b5b.css.map",
+    "main.8ccdd4c7.js.map": "/meama_final/static/js/main.8ccdd4c7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46f10b5b.css",
+    "static/js/main.8ccdd4c7.js"
+  ]
+}
