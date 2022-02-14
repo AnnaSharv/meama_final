@@ -1,0 +1,60 @@
+.productList div:first-child h1:first-child {
+    color: white;
+    
+}
+.productList div h1 {
+margin-bottom: 10vh;
+}
+.productList {
+    margin-top: -100px;
+    color: black;
+    padding-left: 20px;
+}
+.productListDiv {
+    display:flex;
+    /* overflow: scroll; */
+}
+.productList img {
+width:100%;
+margin-top: -8vh;
+}
+.productListContent {
+    min-width: 200px !important;
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+
+.subCategoryImg {
+    display: flex;
+}
+.subCategoryImg img {
+    width:250px;
+    height:250px;
+}
+.four {
+    position: relative;
+}
+.ყველა {
+    position: absolute;
+    top:0;
+    left:0;
+}
+.ცივი {
+    left:80px;
+    position: absolute;
+     top:0;
+}
+.ცხელი {
+    left:160px;
+        top:0;
+       position: absolute;    
+}
+.მეამას .four .subCategoryImg {
+    display: none
+    ;
+}
+
+.subCategoryImg {margin-top: 30px;}
+.subCategoryImg img{width:100%; margin-top: -30px;}
+.zzzzzz {overflow-x: scroll  !important;}

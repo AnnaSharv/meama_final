@@ -1,0 +1,33 @@
+@font-face {
+    font-family: meamaMD;
+    src: url('../../../public/fonts/MeamaLGV-Medium.woff');
+}
+@font-face {
+    font-family: meamaRG;
+    src: url('../../../public/fonts/MeamaSansLGV-Regular.woff');
+}
+
+.productList{margin-bottom: 90px;}
+
+.topproductList h1 {
+margin-bottom: 10vh;
+font-family: meamaMD;
+font-size: 32px;
+color:white !important;
+}
+
+.productList {
+    margin-top: -100px;
+    color: black;
+    padding-left: 20px;
+}
+.card {
+    min-width:168px !important;
+}
+.topProductContent {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    overflow: scroll;
+    margin-top: -110px;
+}

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: meamaMD;
+    src: url('../../../public/fonts/MeamaLGV-Medium.woff');
+}
+@font-face {
+    font-family: meamaRG;
+    src: url('../../../public/fonts/MeamaSansLGV-Regular.woff');
+}
+.card {
+    min-width:168px !important;
+}
+.topProductContent {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    overflow: scroll;
+    margin-top: -110px;
+}
+
+@font-face {
+    font-family: meamaMD;
+    src: url('../../../public/fonts/MeamaLGV-Medium.woff');
+}
+@font-face {
+    font-family: meamaRG;
+    src: url('../../../public/fonts/MeamaSansLGV-Regular.woff');
+}
+
+.productList{margin-bottom: 90px;}
+.productList div:first-child h1:first-child {
+    color: white;
+    
+}
+.bottomproductList h1 {
+    padding-left: 20px;
+    font-family: meamaMD;
+    font-size: 32px;
+    color:black;
+    margin-bottom: 35px;
+}
+.productList {
+    margin-top: -100px;
+    color: black;
+    padding-left: 20px;
+}
+.card {
+    min-width:168px !important;
+}
+.bottomProductContent {
+    padding-left: 20px;
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    overflow: scroll;
+    margin-bottom: 45px;
+}
+.bottomProductContent img {
+    height:initial;
+    transform: scale(1);
+}

@@ -1,0 +1,35 @@
+@font-face {
+    font-family: meamaMD;
+    src: url('../../../public/fonts/MeamaLGV-Medium.woff');
+}
+@font-face {
+    font-family: meamaRG;
+    src: url('../../../public/fonts/MeamaSansLGV-Regular.woff');
+}
+
+.productList{margin-bottom: 90px;}
+
+.cookiesproductList h1 {
+font-family: meamaMD;
+font-size: 32px;
+color:black;
+padding-left: 20px;
+}
+
+
+.card {
+    min-width:168px !important;
+}
+.cookieProductContent {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    overflow: scroll;
+    padding-left: 20px;
+}
+.cookieProductContent img {
+    height:initial;
+}
+.cookiesproductList {
+    margin-bottom: 90px ;
+}

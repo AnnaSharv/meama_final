@@ -1,0 +1,116 @@
+@font-face {
+  font-family: meamaMD;
+  src: url('../../../public/fonts/MeamaLGV-Medium.woff');
+}
+@font-face {
+  font-family: meamaRG;
+  src: url('../../../public/fonts/MeamaSansLGV-Regular.woff');
+}
+.tab-pane {margin:0;}
+.nav-pills .nav-link.active {
+    background-color: transparent;
+    color: rgb(0, 255, 76);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: black;
+    color: white;
+    border-radius:50px;
+    font-family: meamaMD;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.scrolling-wrapper .card {
+  display: inline-block;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+
+.scrolling-wrapper,
+.scrolling-wrapper-flexbox {
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+.scrolling-wrapper::-webkit-scrollbar,
+.scrolling-wrapper-flexbox::-webkit-scrollbar {
+  display: none;
+}
+
+.catPtitle {
+  /* margin-top: 90px; */
+  margin-bottom: 20px;
+    font-family: meamaMD;
+    font-size: 32px;
+  padding-left: 20px;
+}
+.nav-pills .nav-link {
+  color: black;
+  font-family: meamaMD;
+  border: 0;
+  border-radius: 25px;
+}
+.catPul {
+  padding-left: 20px;
+  margin-bottom: 25px;
+}
+.productCard{
+  margin-right: 15px;
+    width: 160px;
+    height: 200px;
+    font-family: meamaRG;
+}
+.productCard .card-body {
+  display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 10px 5px;
+
+
+  }
+  .productCard  {margin-right: 15px !important;}
+.productCard a {height:0;}
+
+
+.tab-content {
+  overflow-x: scroll;
+  overflow-y: hidden;
+    height: 250px;
+    display: flex;
+    align-items: flex-end;
+  margin-bottom: 90px;
+}
+
+.scrolling-wrapper-flexbox {
+  overflow: initial;
+}
+
+.productCard  img {
+  margin-top: -60px; 
+  transform: scale(0.7); 
+  height: 200px;
+}
+
+.productCard .h5 {
+  font-size: 16px;
+}
+.productCard .card-text {
+  font-size: 21px;
+    font-weight: bold;
+
+}
